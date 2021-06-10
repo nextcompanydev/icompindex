@@ -1,5 +1,5 @@
 async function X() {
-    console.log(new Date());
+    console.log(new Date(), "saida");
     setTimeout(() => X(), 1000);
 }
 
